@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "expanding-slideshow": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

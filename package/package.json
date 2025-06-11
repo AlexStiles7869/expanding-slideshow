@@ -1,0 +1,21 @@
+{
+  "name": "expanding-slideshow",
+  "version": "1.0.0",
+  "description": "Combination of Embla and PhotoSwipe",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Slideshow",
+    "Embla",
+    "PhotoSwipe"
+  ],
+  "author": "Alex Stiles",
+  "license": "ISC",
+  "dependencies": {
+    "embla-carousel": "^8.6.0",
+    "photoswipe": "^5.4.4"
+  }
+}
