@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm --filter example run dev",
+    "build": "pnpm --filter ./packages/* run build",
+    "build-all": "pnpm -r run build"
   },
   "keywords": [],
   "author": "",
