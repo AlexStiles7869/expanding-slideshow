@@ -1,0 +1,28 @@
+{
+  "name": "expanding-slideshow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpx rollup -c"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "embla-carousel": "^8.6.0",
+    "photoswipe": "^5.4.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^4.43.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
